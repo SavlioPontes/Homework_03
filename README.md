@@ -9,7 +9,7 @@ Trabalho de Estatística com o Software R
 - README.md                   # Este arquivo
 
 ### PROCESSO
-Nesse projeto, foram trabalhadas as competências em R relacionadas à por meio de questões contextualizadas. A partir desses valores e das visualizações gráficas, foi possível fazer interpretações acerca do comportamento dos dados e como ele se traduziu nos contextos apresentados. Além disso, também foram realizados os cálculos teóricos das questões de modo a possibilitar uma comparação com os resultados obtidos pelos métodos utilizados pelo R.
+Nesse projeto, foram trabalhadas as competências em R relacionadas à análise estatística de dados, inferência estatística e modelagem probabilística, por meio de questões contextualizadas. A partir dos valores e das visualizações gráficas obtidas, foi possível fazer interpretações acerca do comportamento dos dados e como ele se traduziu nos contextos apresentados. Além disso, também foram realizados os cálculos teóricos das questões de modo a possibilitar uma comparação com os resultados obtidos pelos métodos utilizados pelo R.
 
 Para isso, o projeto foi separado em dois arquivos de código em R (q1.R, q2.R), um para cada questão, os quais foram criados e programados pela plataforma RStudio conectada ao Git. Desse modo, os integrantes faziam suas partes simultaneamente, enviando as alterações feitas para o repositório remoto do gitHub, no qual conseguiam visualizar todo o trabalho.  
 Ademais, o relatório do projeto foi feito na linguagem LATEX na plataforma Overleaf, que também permite uma edição simultânea dos textos. 
@@ -21,7 +21,9 @@ Para rodar o código, basta:
 
 2. Instale as Dependências #Execute no R/RStudio:
 - dependencies <- c(
-  "latex2exp"  # Utilizado para renderização de expressões LaTeX nos gráficos
+  "ggplot2",
+  "palmerpenguins",
+  "latex2exp"
 )
 
 install.packages(dependencies, dependencies = TRUE)
